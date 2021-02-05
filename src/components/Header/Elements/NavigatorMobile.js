@@ -11,7 +11,7 @@ export default function Navigator() {
       if (item.title === "Home") {
         return (
           <li className="relative" key={index}>
-            <Link href="#">
+            <Link href="/">
               <a
                 onClick={() => {
                   if (dropdownItem === "home") {
