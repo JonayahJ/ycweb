@@ -2,16 +2,21 @@
   {
     "image": "/assets/images/benefits/1.png",
     "name": "Free Shipping",
-    "content": "Free shipping on orders over $40"
+    "content": "Free shipping on all orders over $40"
   },
   {
     "image": "/assets/images/benefits/2.png",
-    "name": "Free Samples",
+    "name": "Request a Sample",
     "content": "Request a free green coffee sample"
   },
   {
     "image": "/assets/images/benefits/3.png",
     "name": "Have Questions?",
     "content": "Get in touch via our contact page"
+  },
+  {
+    "image": "/assets/images/benefits/4.png",
+    "name": "Discounts",
+    "content": "Subscribe to our newsletter for updates and discounts"
   }
 ]
