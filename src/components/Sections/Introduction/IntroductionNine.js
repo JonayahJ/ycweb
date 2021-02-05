@@ -59,10 +59,10 @@ export default function IntroductionNine() {
       <div className="container">
         <div className="introduction-nine__content">
           <h3>
-            New items are <br />
-            released weekly.
+            Try Our Genuine <br />
+            Rwandan Coffee
           </h3>
-          <Button action="#" color="white" content="ALL NEW ITEMS" />
+          <Button action="/shop" color="white" content="Shop Now" />
         </div>
       </div>
     </div>

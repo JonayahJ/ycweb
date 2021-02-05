@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -29,30 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/about": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/about/about.js"
-    ],
-    "/about/giving-back": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/about/giving-back.js"
-    ],
     "/about/our-story": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/about/our-story.js"
     ],
-    "/about/washing-stations": [
+    "/homepages/homepage5": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/about/washing-stations.js"
-    ],
-    "/legal/terms": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/legal/terms.js"
+      "static/chunks/pages/homepages/homepage5.js"
     ]
   },
   "ampFirstPages": []
