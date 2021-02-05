@@ -1,0 +1,19 @@
+{
+  "accountLinks": [
+    { "name": "My Account", "to": "#" },
+    { "name": "Cart", "to": "/shop/cart" },
+    { "name": "Shop", "to": "/shop/fullwidth-4col" },
+    { "name": "Checkout", "to": "/shop/checkout" }
+  ],
+  "informationLinks": [
+    { "name": "About Francois", "to": "/about/about-francois" },
+    { "name": "Our Story", "to": "/about/our-story" },
+    { "name": "Giving Back", "to": "/about/giving-back" },
+    { "name": "Washing Stations", "to": "/about/washing-stations" }
+  ],
+  "creditLinks": [
+    { "name": "Privacy Policy", "to": "/legal/privacy" },
+    { "name": "Terms & Conditions", "to": "/legal/terms" },
+    { "name": "Site map", "to": "#" }
+  ]
+}
