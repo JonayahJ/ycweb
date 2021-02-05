@@ -29,10 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/about/our-story.js"
     ],
-    "/homepages/homepage5": [
+    "/homepages/homepage4": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/homepages/homepage5.js"
+      "static/chunks/pages/homepages/homepage4.js"
     ]
   },
   "ampFirstPages": []

@@ -7,7 +7,7 @@ import { PrevArrow, NextArrow } from "../../../Other/SliderArrow";
 export default function ProductSlideOne({ data }) {
   const settings = {
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     className: "product-slide__wrapper",
     prevArrow: <PrevArrow />,

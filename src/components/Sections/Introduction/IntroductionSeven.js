@@ -1,13 +1,7 @@
-import { useState } from "react";
-import { Accordion, Card } from "react-bootstrap";
-
 import Button from "../../Control/Button";
 import SectionTitleOne from "../SectionTitle/SectionTitleOne";
-import Quantity from "../../../components/Control/Quantity";
 
-export default function IntroductionSeven({ data }) {
-  const [currentAccordionIndex, setCurrentAccordionIndex] = useState(1);
-  const [quantity, setQuantity] = useState();
+export default function IntroductionSeven() {
   return (
     <div className="introduction-seven">
       <div className="introduction-seven__wrapper -top">

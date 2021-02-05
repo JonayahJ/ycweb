@@ -1,26 +1,26 @@
 [
   {
-    "name": "2006",
-    "description": "Supro was born",
+    "name": "Milestone 1",
+    "description": "Lorem ipsum dolor sit quum exitus.",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/1.png",
-    "videoSrc": "https://www.youtube.com/embed/80e0QHPYRG4"
+    "videoSrc": "https://www.youtube.com/embed/BJ-bxdzeyjY"
   },
   {
-    "name": "2010",
-    "description": "We went international, lauching in Lodon and the US.",
+    "name": "Milestone 2",
+    "description": "Lorem ipsum dolor sit quum exitus.",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/2.png",
-    "videoSrc": "https://www.youtube.com/embed/xn7jfVWWSio"
+    "videoSrc": "https://www.youtube.com/embed/BJ-bxdzeyjY"
   },
   {
-    "name": "2015",
-    "description": "We hit 1 mil followers on Facebook Opened Sydney office",
+    "name": "Milestone 3",
+    "description": "Lorem ipsum dolor sit quum exitus.",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/3.png",
-    "videoSrc": "https://www.youtube.com/embed/K3M-czGNUCg"
+    "videoSrc": "https://www.youtube.com/embed/BJ-bxdzeyjY"
   },
   {
-    "name": "2020",
-    "description": "1000+ employees and we launched Supro Premium",
+    "name": "Milestone 4",
+    "description": "Lorem ipsum dolor sit quum exitus.",
     "videoPoster": "/assets/images/introduction/IntroductionTwo/4.png",
-    "videoSrc": "https://www.youtube.com/embed/hoPiGLf0ICA"
+    "videoSrc": "https://www.youtube.com/embed/BJ-bxdzeyjY"
   }
 ]

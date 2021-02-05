@@ -33,7 +33,13 @@
         $lh: emCal(15, 24),
         $color: setShadeColor(medium)
       );
-      margin-bottom: emCal(15, 25);
+      margin-bottom: emCal(40, 25);
+    }
+  }
+  &.-about {
+    p {
+      margin-bottom: emCal(16, 40);
+      @include typo($fsz: 1em, $color: setShadeColor(dark), $fw: 500);
     }
   }
 }

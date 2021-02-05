@@ -1,7 +1,6 @@
 import LayoutFour from "../../components/Layout/LayoutFour";
 import { Breadcrumb, BreadcrumbItem } from "../../components/Other/Breadcrumb";
-import IntroductionOne from "../../components/Sections/Introduction/IntroductionOne";
-import introductionOneData from "../../data/introduction/introductionOne.json";
+import OurStoryText from "../../components/Sections/About/OurStoryText"
 import IntroductionTwo from "../../components/Sections/Introduction/IntroductionTwo";
 import introductionTwoData from "../../data/pages/about.json";
 import TestimonialOne from "../../components/Sections/Testimonial/TestimonialOne";
@@ -17,7 +16,7 @@ export default function () {
         <BreadcrumbItem name="About" />
         <BreadcrumbItem name="Our Story" current />
       </Breadcrumb>
-      <IntroductionOne data={introductionOneData} />
+      <OurStoryText />
       <IntroductionTwo data={introductionTwoData} style={{ marginBottom: 0 }} />
       <TestimonialOne
         data={testimonialOneData}

@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/homepages/homepage5": "pages/homepages/homepage5.js",
+  "/homepages/homepage4": "pages/homepages/homepage4.js",
   "/about/our-story": "pages/about/our-story.js"
 }
