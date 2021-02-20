@@ -11,7 +11,7 @@
       { "title": "Washing Stations", "to": "/about/washing-stations" }
     ]
   },
-  { "title": "Shop", "to": "/shop/fullwidth-4col"  },
+  { "title": "Shop", "to": "/shop"  },
   { "title": "Blog", "to": "/blog" },
   { "title": "Contact", "to": "/contact" }
 ]

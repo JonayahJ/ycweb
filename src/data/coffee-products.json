@@ -1,0 +1,119 @@
+[
+    {
+        "id": "1",
+        "category": "Roasted Coffee",
+        "name": "Dark Roast",
+        "starting-price": 15,
+        "description": "This dense mountain coffee produces the most aromatic dark roast profile.  Roasted in small batches on well-controlled temperatures, this roast creates a hint of sweet citrus taste within the bitter taste of a dark roast.",
+        "slug": "dark-roast",
+        "rating": 5,
+        "numReviews": 1,
+        "quantity": 100,
+        "variation": [
+            {
+                "type": "Ground Coffee"
+            },
+            {
+                "type": "Whole Beans"
+            }
+        ],
+        "size": [
+            {
+                "weight": "1 lb",
+                "price": 15
+            },
+            {
+                "weight": "5 lbs",
+                "price": 65
+            }
+        ],
+        "thumbImage": [
+          "/assets/images/product/1.png",
+          "/assets/images/product/2.png"
+        ],
+        "images": [
+          "/assets/images/product/1.png",
+          "/assets/images/product/2.png",
+          "/assets/images/product/3.png",
+          "/assets/images/product/4.png"
+        ]
+    },
+    {
+        "id": "2",
+        "category": "Roasted Coffee",
+        "name": "Medium Roast",
+        "starting-price": 15,
+        "description": "The volcanic soil of the Southwestern region of Rwanda gives our medium roast the most balanced hint of lemon with a caramel aftertaste.",
+        "slug": "medium-roast",
+        "rating": 5,
+        "numReviews": 1,
+        "quantity": 100,
+        "variation": [
+            {
+                "type": "Ground Coffee"
+            },
+            {
+                "type": "Whole Beans"
+            }
+        ],
+        "size": [
+            {
+                "weight": "1 lb",
+                "price": 15
+            },
+            {
+                "weight": "5 lbs",
+                "price": 65
+            }
+        ],
+        "thumbImage": [
+          "/assets/images/product/5.png",
+          "/assets/images/product/6.png"
+        ],
+        "images": [
+          "/assets/images/product/5.png",
+          "/assets/images/product/6.png",
+          "/assets/images/product/7.png",
+          "/assets/images/product/8.png"
+        ]
+    },
+    {
+        "id": "3",
+        "category": "Roasted Coffee",
+        "name": "Light Roast",
+        "starting-price": 15,
+        "description": "Washed and fermented, Yego Coffee offers a special taste of tropical fruit and sweet strawberry in this light roast.",
+        "slug": "light-roast",
+        "rating": 5,
+        "numReviews": 1,
+        "quantity": 100,
+        "variation": [
+            {
+                "type": "Ground Coffee"
+            },
+            {
+                "type": "Whole Beans"
+            }
+        ],
+        "size": [
+            {
+                "weight": "1 lb",
+                "price": 15
+            },
+            {
+                "weight": "5 lbs",
+                "price": 65
+            }
+        ],
+        "thumbImage": [
+          "/assets/images/product/9.png",
+          "/assets/images/product/10.png"
+        ],
+        "images": [
+          "/assets/images/product/9.png",
+          "/assets/images/product/10.png",
+          "/assets/images/product/11.png",
+          "/assets/images/product/12.png"
+        ]
+    }
+]

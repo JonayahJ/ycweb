@@ -45,10 +45,12 @@ export default function BlogSidebar({ limit, popularPostData }) {
           )}
         </div>
       </div>
+      {/* SOCIAL FOLLOW */}
       <div className="blog-sidebar__section">
         <h5 className="blog-sidebar__title">Follow me</h5>
         <SocialIcons className="-border -round -border--light-bg" />
       </div>
+      {/* CATEGORIES */}
       <div className="blog-sidebar__section -categories">
         <h5 className="blog-sidebar__title">Categories</h5>
         <ul>
@@ -67,6 +69,7 @@ export default function BlogSidebar({ limit, popularPostData }) {
           ))}
         </ul>
       </div>
+      {/* POPULAR POSTS */}
       <div className="blog-sidebar__section -polular-post">
         <h5 className="blog-sidebar__title">Popular post</h5>
         {popularPostData &&
@@ -74,6 +77,7 @@ export default function BlogSidebar({ limit, popularPostData }) {
             .slice(0, limit)
             .map((post, index) => <PostCarThree key={index} data={post} />)}
       </div>
+      {/* NEWSLETER */}
       <div className="blog-sidebar__section -newsletter">
         <h5 className="blog-sidebar__title">News letter</h5>
         <p>

@@ -18,10 +18,6 @@ export default function () {
       </Breadcrumb>
       <OurStoryText />
       <IntroductionTwo data={introductionTwoData} style={{ marginBottom: 0 }} />
-      <TestimonialOne
-        data={testimonialOneData}
-        style={{ backgroundColor: "#fff", marginBottom: 0 }}
-      />
       <IntroductionNine />
       <Benefits />
       <InstagramTwo />
