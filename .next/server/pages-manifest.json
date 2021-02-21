@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/about/our-story": "pages/about/our-story.js",
-  "/shop/product/[slug]": "pages/shop/product/[slug].js"
+  "/homepages/homepage1": "pages/homepages/homepage1.js",
+  "/": "pages/index.js"
 }

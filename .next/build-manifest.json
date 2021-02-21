@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -24,15 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/our-story": [
+    "/homepages/homepage1": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/about/our-story.js"
-    ],
-    "/shop/product/[slug]": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/shop/product/[slug].js"
+      "static/chunks/pages/homepages/homepage1.js"
     ]
   },
   "ampFirstPages": []

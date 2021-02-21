@@ -29,6 +29,7 @@ export default function TopNavTwo({ container }) {
             Free shipping on all orders over $40
           </p>
           <div className="top-nav__wrapper__selectors">
+            {/* AUTH */}
             <Link href={process.env.PUBLIC_URL + "#"}>
               <a className="top-nav__auth">Login/Register</a>
             </Link>
