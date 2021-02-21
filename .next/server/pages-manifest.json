@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/legal/privacy": "pages/legal/privacy.js",
-  "/legal/terms": "pages/legal/terms.js"
+  "/legal/terms": "pages/legal/terms.js",
+  "/blog/post/[slug]": "pages/blog/post/[slug].js"
 }
