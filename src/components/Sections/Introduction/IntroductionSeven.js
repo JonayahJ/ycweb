@@ -62,7 +62,7 @@ export default function IntroductionSeven() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
                   </p>
                   <Button
-                    action="/request"
+                    action="/about/request"
                     color="dark"
                     content="More info"
                   />

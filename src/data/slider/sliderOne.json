@@ -5,7 +5,8 @@
     "image": "/assets/images/slider/SliderOne/1.png",
     "btn": {
       "action": "/about/request",
-      "content": "Request a Sample"
+      "content": "Request a Sample",
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",
@@ -19,7 +20,8 @@
     "image": "/assets/images/slider/SliderOne/2.png",
     "btn": {
       "action": "/about/washing-stations",
-      "content": "Learn More"
+      "content": "Learn More",
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",
@@ -33,7 +35,8 @@
     "image": "/assets/images/slider/SliderOne/3.png",
     "btn": {
       "action": "/about/our-story",
-      "content": "Read More"
+      "content": "Read More",
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",
