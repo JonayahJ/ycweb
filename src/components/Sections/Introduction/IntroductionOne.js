@@ -24,11 +24,11 @@ export default function IntroductionOne({ data }) {
               <div className="introduction-one__image__detail">
                 <img
                   src="/assets/images/introduction/IntroductionOne/img1.png"
-                  alt="background"
+                  alt="Coffee nursery"
                 />
                 <img
                   src="/assets/images/introduction/IntroductionOne/img2.png"
-                  alt="background"
+                  alt="Processing the beans"
                 />
               </div>
               <div className="wrapper">
@@ -71,7 +71,7 @@ export default function IntroductionOne({ data }) {
               <Button
                 color={data.btn.color}
                 content={data.btn.content}
-                action="#"
+                action="/about/our-story"
               />
             </div>
           </div>

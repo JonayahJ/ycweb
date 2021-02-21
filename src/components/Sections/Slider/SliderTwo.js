@@ -121,7 +121,7 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
                     >
                       <div>
                         <Button
-                          action={process.env.PUBLIC_URL + "#"}
+                          action={slide.btn.action}
                           content={slide.btn.content}
                           color={slide.btn.color}
                         />

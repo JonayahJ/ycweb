@@ -4,8 +4,9 @@
     "subTitle": "Try our genuine Rwandan coffee",
     "image": "/assets/images/slider/SliderOne/1.png",
     "btn": {
-      "content": "Shop Now",
-      "color": "red"
+      "action": "/request",
+      "content": "Request a Sample",
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",
@@ -18,8 +19,9 @@
     "subTitle": "More about our processes",
     "image": "/assets/images/slider/SliderOne/2.png",
     "btn": {
+      "action": "/about/washing-stations",
       "content": "Learn More",
-      "color": "red"
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",
@@ -32,8 +34,9 @@
     "subTitle": "From Rwanda to Boston",
     "image": "/assets/images/slider/SliderOne/3.png",
     "btn": {
+      "action": "/about/our-story",
       "content": "Read More",
-      "color": "red"
+      "color": "yellow"
     },
     "animationClass": {
       "title": "slider-one-title",

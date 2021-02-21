@@ -235,7 +235,7 @@
           flex-grow: 1;
         }
         button {
-          @extend .btn, .-red;
+          @extend .btn, .-yellow;
           padding: 0 emCal(13, 20);
           height: emCal(13, 45);
         }
