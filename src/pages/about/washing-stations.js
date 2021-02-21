@@ -1,19 +1,19 @@
 import { useForm } from "react-hook-form";
 
-import LayoutFour from "../components/Layout/LayoutFour";
-import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
-import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
-import ContactInfoItem from "../components/Pages/Contact/ContactInfoItem";
-import contactData from "../data/pages/contact.json";
+import LayoutFour from "../../components/Layout/LayoutFour";
+import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
+import { Breadcrumb, BreadcrumbItem } from "../../components/Other/Breadcrumb";
+import ContactInfoItem from "../../components/Pages/Contact/ContactInfoItem";
+import contactData from "../../data/pages/contact.json";
 
 export default function () {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <LayoutFour title="Contact Us">
-      <Breadcrumb title="Contact Us">
-        <BreadcrumbItem name="Home" />
-        <BreadcrumbItem name="Contact Us" current />
+    <LayoutFour title="Washing Stations">
+      <Breadcrumb title="Washing Stations">
+        <BreadcrumbItem name="About" />
+        <BreadcrumbItem name="Washing Stations" current />
       </Breadcrumb>
       <div className="contact">
         <div className="container">

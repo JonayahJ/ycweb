@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/blog/post/[slug]": [
+    "/about/request": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/blog/post/[slug].js"
+      "static/chunks/pages/about/request.js"
     ],
-    "/contact": [
+    "/about/washing-stations": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/about/washing-stations.js"
     ]
   },
   "ampFirstPages": []
