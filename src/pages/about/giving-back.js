@@ -1,7 +1,7 @@
 import LayoutFour from "../../components/Layout/LayoutFour";
 import { Breadcrumb, BreadcrumbItem } from "../../components/Other/Breadcrumb";
-import AboutFrancoisText from "../../components/Sections/About/AboutFrancoisText"
-import InstagramOne from "../../components/Sections/Instagram/InstagramOne";
+import GivingBackText from "../../components/Sections/About/GivingBackText"
+import IntroductionEleven from "../../components/Sections/Introduction/IntroductionEleven";
 
 export default function () {
   return (
@@ -10,8 +10,8 @@ export default function () {
         <BreadcrumbItem name="About" />
         <BreadcrumbItem name="Giving Back" current />
       </Breadcrumb>
-      <AboutFrancoisText />
-      <InstagramOne />
+      <GivingBackText />
+      <IntroductionEleven />
     </LayoutFour>
   );
 }
