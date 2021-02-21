@@ -24,15 +24,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about/about-francois": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/about/about-francois.js"
+    ],
+    "/about/giving-back": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/about/giving-back.js"
+    ],
     "/about/our-story": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/about/our-story.js"
-    ],
-    "/shop/product/[slug]": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/shop/product/[slug].js"
     ]
   },
   "ampFirstPages": []

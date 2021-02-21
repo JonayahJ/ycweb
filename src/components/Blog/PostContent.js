@@ -49,7 +49,7 @@ export default function PostContent({ data, children }) {
         </p>
         <ImageLightbox
           className="post-image"
-          alt="post image"
+          alt="Butambamo Washing Station"
           imgSrc={"/assets/images/blog/post_img.png"}
         />
         <p className="post-paragraph">

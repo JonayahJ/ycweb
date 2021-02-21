@@ -4,7 +4,7 @@ export default function InstagramOne({ singleRow }) {
       <div className="instagram-one__background">
         {Array.from(Array(singleRow ? 7 : 14), (e, i) => (
           <a
-            href="https://instagram.com/"
+            href="https://instagram.com/yegocoffee"
             className="instagram-one__background__item"
             key={i}
           >
@@ -18,10 +18,10 @@ export default function InstagramOne({ singleRow }) {
           </a>
         ))}
       </div>
-      <a href="https://www.instagram.com/" className="instagram-one__content">
+      <a href="https://www.instagram.com/yegocoffee/" className="instagram-one__content">
         <i className="fab fa-instagram"></i>
         <h5>Follow us on instagram</h5>
-        <p>@Teliahshop</p>
+        <p>@yegocoffee</p>
       </a>
     </div>
   );
