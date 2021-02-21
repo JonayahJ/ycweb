@@ -19,7 +19,7 @@ export default function IntroductionSeven() {
                   This dense mountain coffee produces the most aromatic dark roast profile.  Roasted in small batches on well-controlled temperatures, this roast creates a hint of sweet citrus taste within the bitter taste of a dark roast.{" "}
                   </p>
                   <Button
-                    action={process.env.PUBLIC_URL + "#"}
+                    action="/shop/product/dark-roast"
                     color="dark"
                     content="More info"
                   />
@@ -62,7 +62,7 @@ export default function IntroductionSeven() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
                   </p>
                   <Button
-                    action={process.env.PUBLIC_URL + "#"}
+                    action="/request"
                     color="dark"
                     content="More info"
                   />
