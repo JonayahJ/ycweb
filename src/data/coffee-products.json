@@ -6,7 +6,7 @@
         "starting-price": 15,
         "description": "This dense mountain coffee produces the most aromatic dark roast profile.  Roasted in small batches on well-controlled temperatures, this roast creates a hint of sweet citrus taste within the bitter taste of a dark roast.",
         "slug": "dark-roast",
-        "rating": 5,
+        "rate": 5,
         "numReviews": 1,
         "quantity": 100,
         "variation": [
@@ -45,7 +45,7 @@
         "starting-price": 15,
         "description": "The volcanic soil of the Southwestern region of Rwanda gives our medium roast the most balanced hint of lemon with a caramel aftertaste.",
         "slug": "medium-roast",
-        "rating": 5,
+        "rate": 5,
         "numReviews": 1,
         "quantity": 100,
         "variation": [
@@ -84,7 +84,7 @@
         "starting-price": 15,
         "description": "Washed and fermented, Yego Coffee offers a special taste of tropical fruit and sweet strawberry in this light roast.",
         "slug": "light-roast",
-        "rating": 5,
+        "rate": 5,
         "numReviews": 1,
         "quantity": 100,
         "variation": [

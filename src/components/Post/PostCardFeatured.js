@@ -8,8 +8,9 @@ export default function PostCardFeatured({ data }) {
       </div>
       <div className="post-card-featured__content">
         <div className="post-card-featured__content__date">
-          <h5>05</h5>
-          <p>Feb</p>
+          {/* DATE */}
+          <h5>06</h5>
+          <p>Jun</p>
         </div>
         <div className="post-card-featured__content__detail">
           <div className="post-card-featured__info">

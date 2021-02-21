@@ -27,6 +27,7 @@ export default function BlogSidebar({ limit, popularPostData }) {
   const onNewsSubmit = (data) => console.log(data);
   return (
     <div className="blog-sidebar">
+      {/* SEARCH BAR */}
       <div className="blog-sidebar__section -search">
         <form onSubmit={handleSubmit(onSearchSubmit)}>
           <input
@@ -47,11 +48,11 @@ export default function BlogSidebar({ limit, popularPostData }) {
       </div>
       {/* SOCIAL FOLLOW */}
       <div className="blog-sidebar__section">
-        <h5 className="blog-sidebar__title">Follow me</h5>
+        <h5 className="blog-sidebar__title">Follow Yego Coffee</h5>
         <SocialIcons className="-border -round -border--light-bg" />
       </div>
       {/* CATEGORIES */}
-      <div className="blog-sidebar__section -categories">
+      {/* <div className="blog-sidebar__section -categories">
         <h5 className="blog-sidebar__title">Categories</h5>
         <ul>
           {blog.CATEGORIES.map((item, index) => (
@@ -68,20 +69,20 @@ export default function BlogSidebar({ limit, popularPostData }) {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
       {/* POPULAR POSTS */}
-      <div className="blog-sidebar__section -polular-post">
+      {/* <div className="blog-sidebar__section -polular-post">
         <h5 className="blog-sidebar__title">Popular post</h5>
         {popularPostData &&
           popularPostData
             .slice(0, limit)
             .map((post, index) => <PostCarThree key={index} data={post} />)}
-      </div>
+      </div> */}
       {/* NEWSLETER */}
       <div className="blog-sidebar__section -newsletter">
-        <h5 className="blog-sidebar__title">News letter</h5>
+        <h5 className="blog-sidebar__title">Newsletter</h5>
         <p>
-          Subscribe to our newsletter a nd get our newest updates right on your
+          Subscribe to our newsletter and get our newest updates right on your
           inbox.
         </p>
         <SubscribeEmail
