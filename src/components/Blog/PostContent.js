@@ -86,9 +86,10 @@ export default function PostContent({ data, children }) {
             ))}
         </div>
       </div>
+
       {/* NEST/PREV BUTTONS */}
       <div className="post-content__actions">
-        <div className="post-content__actions__change">
+        {/* <div className="post-content__actions__change">
           <Link href="#">
             <a className="change-post-btn -prev">
               <i className="fas fa-angle-left"></i>Prev Posts
@@ -100,7 +101,8 @@ export default function PostContent({ data, children }) {
               <i className="fas fa-angle-right"></i>
             </a>
           </Link>
-        </div>
+        </div> */}
+
         {/* POST COMMENT */}
         <div className="post-content__actions__comment">
           <form onSubmit={handleSubmit(onSearchSubmit)}>
