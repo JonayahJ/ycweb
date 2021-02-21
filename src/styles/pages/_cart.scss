@@ -75,7 +75,7 @@
                   margin-left: auto;
                   display: inline-block;
                   &:hover {
-                    border-color: setColor(red);
+                    border-color: #FFCB05;
                   }
                 }
               }
@@ -92,7 +92,7 @@
         @include link($fsz: emCal(16, 15), $fw: 600);
         i {
           margin-right: emCal(15, 10);
-          color: setColor(red);
+          color: #FFCB05;
         }
       }
     }
@@ -156,7 +156,7 @@
             text-align: right;
             @include typo($fsz: emCal(16, 15), $fw: 600);
             &.final-price {
-              color: setColor(red);
+              color: #FFCB05;
             }
           }
         }

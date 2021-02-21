@@ -11,7 +11,8 @@ export default function FooterOne() {
       <div className="container">
         <div className="footer-one__header">
           <div className="footer-one__header__logo">
-            <Link href={process.env.PUBLIC_URL + "/homepages/homepage1"}>
+            {/* LOGO & LINK */}
+            <Link href={process.env.PUBLIC_URL + "/"}>
               <a>
                 <img
                   src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
@@ -46,6 +47,9 @@ export default function FooterOne() {
                 </p>
                 <p>
                   Email: <span>{footerInfomation.email}</span>
+                </p>
+                <p>
+                  Hours: <span>{footerInfomation.open}</span>
                 </p>
               </div>
             </div>
@@ -83,8 +87,7 @@ export default function FooterOne() {
               <div className="footer__section -payment">
                 <h5 className="footer-title">Payment Methods</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  gravida facilisis.{" "}
+                  Yego Coffee accepts all major forms of credit and debit cards.{" "}
                 </p>
                 <div className="payment-methods">
                   <img

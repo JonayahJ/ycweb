@@ -41,12 +41,12 @@
     .-new,
     .-sale {
       @include typo($fsz: emCal(16, 13), $color: #fff);
-      background-color: setColor(blue);
+      background-color: #00509D;
       padding: emCal(16, 5);
       border-radius: emCal(16, 3);
     }
     .-sale {
-      background-color: setColor(darkRed);
+      background-color: #FFCB05;
     }
   }
   &-btn {
@@ -116,7 +116,7 @@
         .product__actions__item {
           @include spaceTrim;
           &.active {
-            background-color: setColor(red);
+            background-color: #FFCB05;
             color: #fff;
           }
         }
@@ -270,7 +270,7 @@
           .product__actions__item {
             @include spaceTrim;
             &.active {
-              background-color: setColor(red);
+              background-color: #FFCB05;
               color: #fff;
             }
           }

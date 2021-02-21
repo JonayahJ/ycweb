@@ -81,7 +81,7 @@
       &__order {
         margin-bottom: emCal(16, 30);
         h3 {
-          @include typo($fsz: emCal(16, 30), $color: setColor(red), $fw: 700);
+          @include typo($fsz: emCal(16, 30), $color: #FFCB05, $fw: 700);
         }
       }
       &__title {
@@ -104,7 +104,7 @@
         margin-bottom: emCal(16, 15);
         @include typo($fsz: emCal(16, 15), $color: setShadeColor(medium));
         i {
-          color: setColor(red);
+          color: #FFCB05;
         }
       }
     }

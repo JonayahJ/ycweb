@@ -25,7 +25,7 @@
       margin-bottom: emCal(18, 10);
     }
     h5 {
-      @include typo($fsz: emCal(16, 13), $color: setColor(red));
+      @include typo($fsz: emCal(16, 13), $color: #FFCB05);
       margin-bottom: emCal(13, 18);
     }
     p {

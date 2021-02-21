@@ -81,7 +81,7 @@
       letter-spacing: emCal(15, 5);
       margin-bottom: emCal(15, 30);
       span {
-        color: setColor(red);
+        color: #FFCB05;
       }
     }
 
@@ -235,13 +235,13 @@
       letter-spacing: emCal(15, 5);
       margin-bottom: emCal(15, 30);
       span {
-        color: setColor(red);
+        color: #FFCB05;
       }
     }
     h3 {
       @include typo($fsz: emCal(16, 42), $lh: emCal(42, 55), $fw: 600);
       span {
-        color: setColor(red);
+        color: #FFCB05;
       }
       margin-bottom: emCal(42, 40);
     }
@@ -298,7 +298,7 @@
         @include typo($fsz: emCal(16, 50), $fw: 600, $lh: emCal(50, 60));
         margin-bottom: emCal(50, 10);
         span {
-          color: setColor(red);
+          color: #FFCB05;
         }
       }
       h5 {
@@ -492,14 +492,14 @@
           h5 {
             @include typo(
               $fsz: emCal(16, 15),
-              $color: setColor(red),
+              $color: #FFCB05,
               $up: true
             );
             letter-spacing: emCal(15, 3);
             margin-bottom: emCal(15, 30);
           }
           h3 {
-            @include typo($fsz: emCal(16, 60), $fw: 600, $color: setColor(red));
+            @include typo($fsz: emCal(16, 60), $fw: 600, $color: #FFCB05);
             margin-bottom: emCal(60, 40);
           }
           p {
@@ -519,14 +519,14 @@
           h5 {
             @include typo(
               $fsz: emCal(16, 15),
-              $color: setColor(red),
+              $color: #FFCB05,
               $up: true
             );
             letter-spacing: emCal(15, 3);
             margin-bottom: emCal(15, 30);
           }
           h3 {
-            @include typo($fsz: emCal(16, 60), $fw: 600, $color: setColor(red));
+            @include typo($fsz: emCal(16, 60), $fw: 600, $color: #FFCB05);
             margin-bottom: emCal(60, 40);
           }
           p {

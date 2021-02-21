@@ -66,7 +66,7 @@
       border-radius: 999px;
       margin-left: auto;
       &:hover {
-        border-color: setColor(red);
+        border-color: #00509d;
       }
     }
   }
@@ -81,7 +81,7 @@
       @include typo($fsz: emCal(16, 15), $fw: 600);
       margin-bottom: emCal(16, 30);
       span {
-        color: setColor(red);
+        color: #00509d;
       }
     }
     &__buttons {

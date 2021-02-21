@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: setColor(red);
+    background-color: #FFCB05;
     padding: emCal(16, 50) 0;
     position: relative;
     @include link($fsz: emCal(16, 15), $fw: 600, $color: #fff);

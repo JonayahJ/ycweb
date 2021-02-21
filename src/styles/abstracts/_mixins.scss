@@ -21,13 +21,13 @@
 
 @mixin link(
   $color: setShadeColor(dark),
-  $hvr-color: setShadeColor(red),
+  $hvr-color: #FFCB05,
   $fsz: 14px,
   $fw: normal,
   $lh: 1,
   $up: false,
   $cpt: false,
-  $dashcolor: setColor(red),
+  $dashcolor: #FFCB05,
   $bottom-dash: false
 ) {
   color: setColor($color);

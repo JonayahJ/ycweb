@@ -54,7 +54,7 @@
       }
       .post-card-two__info {
         &__date {
-          background-color: setColor(red);
+          background-color: #00509d;
           color: #fff;
         }
       }
@@ -170,7 +170,7 @@
     }
     .post-card-featured__content {
       &__date {
-        background-color: setColor(red);
+        background-color: #00509d;
         color: #fff;
       }
     }
@@ -239,7 +239,7 @@
   display: flex;
   &:hover {
     .post-card-five__date {
-      background-color: setColor(red);
+      background-color: #00509d;
     }
   }
   &__date {

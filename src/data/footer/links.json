@@ -2,7 +2,7 @@
   "accountLinks": [
     { "name": "My Account", "to": "#" },
     { "name": "Cart", "to": "/shop/cart" },
-    { "name": "Shop", "to": "/shop/fullwidth-4col" },
+    { "name": "Shop", "to": "/shop" },
     { "name": "Checkout", "to": "/shop/checkout" }
   ],
   "informationLinks": [

@@ -16,7 +16,7 @@
     li {
       display: inline-block;
       &.active {
-        color: setColor(red);
+        color: #00509d;
       }
       &:last-child {
         &:after {

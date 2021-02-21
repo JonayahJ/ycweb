@@ -83,7 +83,7 @@
     .slick-current {
       .slider__item {
         img {
-          border: 2px solid setColor(red);
+          border: 2px solid #FFCB05;
         }
       }
     }
@@ -144,7 +144,7 @@
       @include typo(
         $fsz: emCal(16, 20),
         $fw: 600,
-        $color: setColor(red),
+        $color: #FFCB05,
         $cpt: true
       );
       span {
@@ -208,7 +208,7 @@
     flex-wrap: wrap;
     .btn {
       &.active {
-        background-color: setColor(red);
+        background-color: #FFCB05;
         color: #fff;
       }
     }
@@ -283,7 +283,7 @@
               margin-right: emCal(16, 15);
             }
             span {
-              color: setColor(red);
+              color: #FFCB05;
             }
           }
         }

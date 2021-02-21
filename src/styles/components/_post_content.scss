@@ -4,7 +4,7 @@
     align-items: flex-start;
     margin-bottom: emCal(16, 45);
     &__date {
-      background-color: setColor(red);
+      background-color: #00509d;
       display: inline-block;
       text-align: center;
       padding: emCal(16, 10);
@@ -32,7 +32,7 @@
           }
         }
         a {
-          @include link($fsz: emCal(16, 13), $color: setColor(red));
+          @include link($fsz: emCal(16, 13), $color: #00509d);
         }
       }
       h2 {
@@ -55,7 +55,7 @@
       }
     }
     .post-quote {
-      border: 1px solid rgba($color: setColor(red), $alpha: 0.5);
+      border: 1px solid rgba($color: #00509d, $alpha: 0.5);
       padding: emCal(16, 40) emCal(16, 50);
       margin-bottom: emCal(16, 40);
       h5 {
@@ -68,7 +68,7 @@
         i {
           font-size: emCal(16, 24);
           margin-right: emCal(16, 15);
-          color: setColor(red);
+          color: #00509d;
         }
         p {
           @include typo($color: setShadeColor(medium));

@@ -20,7 +20,7 @@
       label {
         @include typo($fsz: emCal(16, 14));
         span {
-          color: setColor(red);
+          color: #FFCB05;
         }
         input {
           margin-top: emCal(16, 15);
@@ -49,7 +49,7 @@
         p {
           @include typo($fsz: emCal(16, 15));
           a {
-            @include link($color: setColor(red));
+            @include link($color: #FFCB05);
             margin-left: emCal(15, 10);
           }
         }

@@ -119,7 +119,7 @@
               a {
                 @include link(
                   $color: setShadeColor(dark),
-                  $hvr-color: setColor(red),
+                  $hvr-color: #FFCB05,
                   $fsz: emCal(16, 14),
                   $lh: emCal(14, 36),
                   $fw: 500
@@ -166,7 +166,7 @@
         .menu__cart {
           .menu-icon {
             span {
-              color: setColor(red);
+              color: #FFCB05;
             }
           }
           h5 {
@@ -428,7 +428,7 @@
             a {
               @include link(
                 $color: setShadeColor(medium),
-                $hvr-color: setColor(red),
+                $hvr-color: #FFCB05,
                 $fsz: emCal(16, 14),
                 $lh: emCal(14, 36),
                 $fw: 500

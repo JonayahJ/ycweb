@@ -44,7 +44,7 @@
           font-size: emCal(16, 15);
           height: emCal(15, 50);
           width: emCal(15, 50);
-          background-color: setColor(red);
+          background-color: #FFCB05;
           border-radius: 999px;
           text-align: center;
           line-height: emCal(15, 50);
@@ -161,7 +161,7 @@
       margin-bottom: emCal(16, 40);
       i {
         font-size: emCal(16, 24);
-        color: setColor(red);
+        color: #FFCB05;
         margin-right: emCal(24, 5);
       }
       @include typo($fsz: 1em, $color: setShadeColor(dark), $fw: 500);
