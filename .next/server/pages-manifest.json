@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/about/request": "pages/about/request.js",
-  "/about/washing-stations": "pages/about/washing-stations.js"
+  "/about/washing-stations": "pages/about/washing-stations.js",
+  "/about/request": "pages/about/request.js"
 }

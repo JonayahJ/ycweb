@@ -76,11 +76,12 @@ export default function () {
             <div className="col-12">
               <iframe
                 className="contact-map"
-                src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=Boston,%20MA+(Yego%20Coffee)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1aJbyv6gGTQA1tDxLuDoAm4PcMQXrglTK"
                 width="100%"
-                height="450"
+                height="600"
                 frameBorder="0"
                 allowFullScreen
+                loading="lazy"
               />
             </div>
           </div>
