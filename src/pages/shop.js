@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import Paginator from "react-hooks-paginator";
 
-import { Breadcrumb, BreadcrumbItem } from "../../components/Other/Breadcrumb";
-import { getProductbyFilter } from "../../common/productSelect";
-import LayoutFour from "../../components/Layout/LayoutFour";
-import productData from "../../data/products.json";
-import ShopProducts from "../../components/Shop/ShopProducts";
-import ShopHeader from "../../components/Shop/ShopHeader";
-import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
+import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
+import { getProductbyFilter } from "../common/productSelect";
+import LayoutFour from "../components/Layout/LayoutFour";
+import productData from "../data/products.json";
+import ShopProducts from "../components/Shop/ShopProducts";
+import ShopHeader from "../components/Shop/ShopHeader";
+import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
 
 export default function () {
   const pageLimit = 12;
@@ -21,8 +21,9 @@ export default function () {
     setCurrentData(sortedProduct.slice(offset, offset + pageLimit));
   }, [offset, currentSort]);
   return (
-    <LayoutFour title="Shop Fullwidth 4 columns" container="wide">
-      <Breadcrumb title="Shop">
+    <LayoutFour title="Shop Our Coffee" container="wide">
+      {/* Page Title */}
+      <Breadcrumb title="Shop Our Coffee"> 
         <BreadcrumbItem name="Home" />
         <BreadcrumbItem name="Shop" current />
       </Breadcrumb>
