@@ -68,6 +68,37 @@ export default function () {
                       placeholder="Message"
                     />
                   </div>
+                  {/* <fieldset>
+                        <legend>Which coffee would you like to sample?</legend>
+                      <p>
+                          <label>
+                              <input type="radio" name="coffee-type" value="Busanze Green Coffee">
+                                Busanze Green Coffee
+                              </input>
+                          </label>
+                      </p>
+                      <p>
+                          <label>
+                              <input type="radio" name="coffee-type" value="Butambamo Green Coffee">
+                                Butambamo Green Coffee
+                              </input>
+                          </label>
+                      </p>
+                      <p>
+                          <label>
+                              <input type="radio" name="coffee-type" value="Gatare Green Coffee">
+                                Gatare Green Coffee
+                              </input>
+                          </label>
+                      </p>
+                      <p>
+                          <label>
+                              <input type="radio" name="coffee-type" value="Kiyumba Green Coffee">
+                                Kiyumba Green Coffee
+                              </input>
+                          </label>
+                      </p>
+                  </fieldset> */}
                   <button className="btn -dark">SEND MESSAGE</button>
                 </form>
               </div>
