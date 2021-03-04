@@ -106,7 +106,7 @@ export default function FooterOne() {
       <div className="footer-one__footer">
         <div className="container">
           <div className="footer-one__footer__wrapper">
-            <p>© 2021 Yego Coffee</p>
+            <p>© 2020-2021 Yego Coffee</p>
             <ul>
               {footerLinks.creditLinks.map((link, index) => (
                 <li key={index}>
