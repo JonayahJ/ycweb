@@ -43,5 +43,22 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^5.4.1",
     "uuid": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayahJ/ycweb.git"
+  },
+  "keywords": [
+    "Rwanda",
+    "Coffee",
+    "Green",
+    "Roasted",
+    "Boston",
+    "Genuine"
+  ],
+  "author": "Jonayah M. Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonayahJ/ycweb/issues"
   }
 }

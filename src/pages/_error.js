@@ -17,8 +17,8 @@ export default function () {
                 <h2>Oops!</h2>
                 <h5>404 PAGE NOT FOUND</h5>
                 <p>
-                  This page couldn't be found! Back to home page if you like.
-                  Please use search for help!
+                  This page couldn't be found! Go back to the home page.
+                  Please use search for help.
                 </p>
                 <div className="form-wrapper">
                   <form>
