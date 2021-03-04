@@ -5,6 +5,7 @@ import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
 import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
 import ContactInfoItem from "../components/Pages/Contact/ContactInfoItem";
 import contactData from "../data/pages/contact.json";
+// import ContactForm from "../components/Sections/Forms/ContactForm"
 
 export default function () {
   const { register, handleSubmit, watch, errors } = useForm();
@@ -15,6 +16,7 @@ export default function () {
         <BreadcrumbItem name="Home" />
         <BreadcrumbItem name="Contact Us" current />
       </Breadcrumb>
+      {/* Add ContactForm.js component here and delete the following code block 34-76 */}
       <div className="contact">
         <div className="container">
           <div className="row">

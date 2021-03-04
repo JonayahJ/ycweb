@@ -3,8 +3,9 @@ import { useForm } from "react-hook-form";
 import LayoutFour from "../../components/Layout/LayoutFour";
 import InstagramOne from "../../components/Sections/Instagram/InstagramOne";
 import { Breadcrumb, BreadcrumbItem } from "../../components/Other/Breadcrumb";
-import ContactInfoItem from "../../components/Pages/Contact/ContactInfoItem";
-import contactData from "../../data/pages/contact.json";
+// import ContactInfoItem from "../../components/Pages/Contact/ContactInfoItem";
+// import contactData from "../../data/pages/contact.json";
+// import RequestForm from "../../components/Sections/Forms/RequestForm"
 
 export default function () {
   const { register, handleSubmit, watch, errors } = useForm();
@@ -32,6 +33,7 @@ export default function () {
               </h4>
               <br />
               <br />
+              {/* Create a new RequestForm.js component and delete the following lines of code 36-106 */}
               {/* Netlify Form */}
               <div className="contact-form">
                 <form onSubmit={handleSubmit(onSubmit)}>
