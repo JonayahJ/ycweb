@@ -9,7 +9,7 @@ export default function ContactForm(style) {
         <div className="col-12 col-md-6">
             <h3 className="contact-title">Get In Touch</h3>
             <div className="contact-form">
-                <form onSubmit={handleSubmit(onSubmit)} name="Contact" netlify netlify-honeypot="bot-field">
+                <form onSubmit={handleSubmit(onSubmit)} name="Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                     <div className="input-validator">
                     <input
                         type="text"
