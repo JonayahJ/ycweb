@@ -17,7 +17,7 @@ export default function IntroductionFive() {
           <Button
             action={process.env.PUBLIC_URL + "/about/giving-back"}
             content="Learn More"
-            color="red"
+            color="yellow"
           />
         </div>
       </div>

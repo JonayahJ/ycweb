@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/legal/terms": "pages/legal/terms.js",
-  "/legal/privacy": "pages/legal/privacy.js"
+  "/legal/privacy": "pages/legal/privacy.js",
+  "/": "pages/index.js",
+  "/about/request": "pages/about/request.js"
 }
