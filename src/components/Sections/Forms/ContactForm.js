@@ -43,7 +43,7 @@ export default function ContactForm(style) {
                         placeholder="Message"
                     />
                     </div>
-                    <button className="btn -dark">SEND MESSAGE</button>
+                    <button className="btn -dark" type="submit">SEND MESSAGE</button>
                 </form>
             </div>
         </div>
