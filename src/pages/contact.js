@@ -7,7 +7,7 @@ import ContactInfoItem from "../components/Pages/Contact/ContactInfoItem";
 import contactData from "../data/pages/contact.json";
 import ContactForm from "../components/Sections/Forms/ContactForm"
 
-export default function () {
+export default function Contact() {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
