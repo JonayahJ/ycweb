@@ -3,13 +3,13 @@ export const product = {
 };
 
 export const blog = {
-  CATEGORIES: ["Beauty tips", "Make up", "Skin care", "Body care", "Videos"],
+  CATEGORIES: ["History"],
 };
 
 export const shop = {
   CATEGORIES: ["roasted ground coffee", "roasted whole bean coffee", "green coffee"],
-  BRANDS: ["gucci", "dolce", "h&m", "kenzo", "prada"],
-  PRICE_POINTS: [0, 25, 50, 75, 100],
+  BRANDS: ["Busanze", "Butambamo", "Gatare", "Kiyumba", "Roasted"],
+  PRICE_POINTS: [0, 15, 65],
   SORT_TYPES: [
     { name: "Default", value: "default" },
     { name: "A to Z Sorting", value: "az" },

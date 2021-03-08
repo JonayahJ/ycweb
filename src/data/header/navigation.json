@@ -12,7 +12,15 @@
       { "title": "Request a Sample", "to": "/about/request" }
     ]
   },
-  { "title": "Shop", "to": "/shop" },
+  { 
+    "title": "Shop", 
+    "to": "/shop",
+
+    "subMenu":[
+      {"title": "Green Coffee", "to": "/about/request"},
+      {"title": "Roasted Coffee", "to": "/shop"}
+    ]
+  },
   { "title": "Blog", "to": "/blog" },
   { "title": "Contact", "to": "/contact" }
 ]

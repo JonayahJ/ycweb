@@ -13,7 +13,7 @@
   ],
   "creditLinks": [
     { "name": "Privacy Policy", "to": "/legal/privacy" },
-    { "name": "Terms & Conditions", "to": "/legal/terms" },
+    { "name": "Terms of Service", "to": "/legal/terms" },
     { "name": "Site map", "to": "#" }
   ]
 }

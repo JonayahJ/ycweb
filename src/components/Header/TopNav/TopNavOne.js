@@ -10,7 +10,7 @@ export default function TopNavOne({ container }) {
       <div className={renderContainer(container)}>
         <div className="top-nav__wrapper">
           <SocialIcons className="-white" />
-          <p className="top-nav__wrapper__promo top-nav__wrapper__selectors">
+          <p className="top-nav__auth top-nav__wrapper__selectors">
             <Link href="/about/request">
               <a className="top-nav__auth">Request a sample of our green coffee</a>
             </Link>
