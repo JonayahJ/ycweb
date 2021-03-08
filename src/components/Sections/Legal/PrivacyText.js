@@ -25,26 +25,26 @@ export default function PrivacyText(style) {
           <p className="post-paragraph">
             Specifically, this Policy will inform you of the following:
           </p>
-          <ul className="post-paragraph">
+          <ol className="post-paragraph">
             <li>What personally identifiable information is collected from you through our website;</li>
             <li>Why we collect personally identifiable information and the legal basis for such collection;</li>
             <li>How we use the collected information and with whom it may be shared;</li>
             <li>What choices are available to you regarding the use of your data; and</li>
             <li>The security procedures in place to protect the misuse of your information.</li>
-          </ul>
+          </ol>
           {/* Information We Collect */}
           <p className="post-paragraph">
           <span>Information We Collect</span><br />
             It is always up to you whether to disclose personally identifiable information to us, although if you elect not to do so, we reserve the right not to register you as a user or provide you with any products or services. This website collects various types of information, such as:
           </p>
-          <ul className="post-paragraph">
+          <ol className="post-paragraph">
             <li>
               Voluntarily provided information which may include your name, address, email address, billing and/or credit card information etc. which may be used when you purchase products and/or services and to deliver the services you have requested.
             </li>
             <li>
               Information automatically collected when visiting our website, which may include cookies, third party tracking technologies and server logs.
             </li>
-          </ul>
+          </ol>
           <p className="post-paragraph">
             In addition,Yego Coffee may have the occasion to collect non-personal anonymous demographic information, such as age, gender, household income, political affiliation, race and religion, as well as the type of browser you are using, IP address, or type of operating system, which will assist us in providing and maintaining superior quality service.
           </p>
@@ -62,13 +62,13 @@ export default function PrivacyText(style) {
             <span>Why We Collect Information and For How Long</span><br />
             We are collecting your data for several reasons:
           </p>
-            <ul className="post-paragraph">
+            <ol className="post-paragraph">
                 <li>To better understand your needs and provide you with the services you have requested;</li>
                 <li>To fulfill our legitimate interest in improving our services and products;</li>
                 <li>To send you promotional emails containing information we think you may like when we have your consent to do so;</li>
                 <li>To contact you to fill out surveys or participate in other types of market research, when we have your consent to do so;</li>
                 <li>To customize our website according to your online behavior and personal preferences.</li>
-            </ul>
+            </ol>
           <p className="post-paragraph">
             The data we collect from you will be stored for no longer than necessary. The length of time we retain said information will be determined based upon the following criteria: the length of time your personal information remains relevant; the length of time it is reasonable to keep records to demonstrate that we have fulfilled our duties and obligations; any limitation periods within which claims might be made; any retention periods prescribed by law or recommended by regulators, professional bodies or associations; the type of contract we have with you, the existence of your consent, and our legitimate interest in keeping such information as stated in this Policy.
           </p>
@@ -91,7 +91,7 @@ export default function PrivacyText(style) {
             <span>Disclosure of Information</span><br />
             Yego Coffee may not use or disclose the information provided by you except under the following circumstances:
           </p>
-          <ul className="post-paragraph">
+          <ol className="post-paragraph">
             <li>as necessary to provide services or products you have ordered;</li>
             <li>in other ways described in this Policy or to which you have otherwise consented;</li>
             <li>in the aggregate with other information in such a way so that your identity cannot reasonably be determined;</li>
@@ -99,7 +99,7 @@ export default function PrivacyText(style) {
             <li>to outside auditors who have agreed to keep the information confidential;</li>
             <li>as necessary to enforce the Terms of Service;</li>
             <li>as necessary to maintain, safeguard and preserve all the rights and property of Yego Coffee.</li>
-          </ul>
+          </ol>
           {/* Non-Marketing Purposes */}
           <p className="post-paragraph">
             <span>Non-Marketing Purposes</span><br />
@@ -132,31 +132,31 @@ export default function PrivacyText(style) {
           </p>
           <ol className="post-paragraph">
             <li>
-              <span>The right to be informed:</span> 
+              <span>The right to be informed: </span> 
               this means we must inform you of how we intend to use your personal data and we do this through the terms of this Policy.
             </li>
             <li>
-              <span>The right of access:</span>
+              <span>The right of access: </span>
               this means you have the right to request access to the data we hold about you and we must respond to those requests within one month. You can do this by sending an email to <a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>.
             </li>
             <li>
-              <span>The right to rectification:</span>
+              <span>The right to rectification: </span>
               this means that if you believe some of the date, we hold is incorrect, you have the right to have it corrected. You can do this by logging into your account with us, or by sending us an email with your request.
             </li>
             <li>
-              <span>The right to erasure:</span>
+              <span>The right to erasure: </span>
               this means you can request that the information we hold be deleted, and we will comply unless we have a compelling reason not to, in which case you will be informed of same. You can do this by sending an email to <a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>.
             </li>
             <li>
-              <span>The right to restrict processing:</span>
+              <span>The right to restrict processing: </span>
               this means you can change your communication preferences or opt-out of certain communications. You can do this by sending an email to <a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>.
             </li>
             <li>
-              <span>The right of data portability:</span>
+              <span>The right of data portability: </span>
               this means you can obtain and use the data we hold for your own purposes without explanation. If you wish to request a copy of your information, contact us at <a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>.
             </li>
             <li>
-              <span>The right to object:</span>
+              <span>The right to object: </span>
               this means you can file a formal objection with us regarding our use of your information with regard to third parties, or its processing where our legal basis is our legitimate interest in it. To do this, please send an email to <a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>.
             </li>
           </ol>

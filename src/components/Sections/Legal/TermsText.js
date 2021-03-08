@@ -351,7 +351,7 @@ export default function TermsText(style) {
             Yego Coffee<br />
             142 Lexington street,<br />
             Woburn, MA 01801<br />
-            <span>Email:</span>francois@yegocoffee.com
+            <span>Email: </span><a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>
           </p>
           {/* Closed Captioning */}
           <p className="post-paragraph">
@@ -395,7 +395,7 @@ export default function TermsText(style) {
             Yego Coffee<br />
             142 Lexington street,<br />
             Woburn, MA 01801<br />
-            <span>Email:</span>francois@yegocoffee.com
+            <span>Email: </span><a href="mailto:francois@yegocoffee.com">francois@yegocoffee.com</a>
           </p>
         </div>
       </div>
