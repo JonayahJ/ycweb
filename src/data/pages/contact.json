@@ -13,10 +13,5 @@
     "iconClass": "far fa-envelope",
     "title": "Email",
     "detail": "francois@yegocoffee.com"
-  },
-  {
-    "iconClass": "far fa-clock",
-    "title": "Opentime",
-    "detail": "Sun-Sat: 8.00am - 9.00.pm"
   }
 ]

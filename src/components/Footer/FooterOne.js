@@ -48,9 +48,6 @@ export default function FooterOne() {
                 <p>
                   Email: <span>{footerInfomation.email}</span>
                 </p>
-                <p>
-                  Hours: <span>{footerInfomation.open}</span>
-                </p>
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
