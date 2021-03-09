@@ -2,21 +2,21 @@
   {
     "image": "/assets/images/benefits/1.png",
     "name": "Free Shipping",
-    "content": "Free shipping on all orders over $40"
+    "content": "For all roasted coffee orders over $40"
   },
   {
     "image": "/assets/images/benefits/2.png",
     "name": "Request a Sample",
-    "content": "Request a free green coffee sample"
+    "content": "Request a sample of our green coffee today"
   },
   {
     "image": "/assets/images/benefits/3.png",
     "name": "Have Questions?",
-    "content": "Get in touch via our contact page"
+    "content": "Get in touch with us via our contact page"
   },
   {
     "image": "/assets/images/benefits/4.png",
     "name": "Discounts",
-    "content": "Subscribe to our newsletter for updates and discounts"
+    "content": "Subscribe to our newsletter for discounts+"
   }
 ]
