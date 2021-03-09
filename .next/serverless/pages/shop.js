@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "cigy");
+/******/ 	return __webpack_require__(__webpack_require__.s = "1cCN");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1476,6 +1476,109 @@ Object.defineProperty(exports, "TextNode", { enumerable: true, get: function () 
 var type_1 = __webpack_require__("KmAU");
 Object.defineProperty(exports, "NodeType", { enumerable: true, get: function () { return __importDefault(type_1).default; } });
 
+
+/***/ }),
+
+/***/ "1cCN":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
+/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
+/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
+var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
+/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
+var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
+/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
+var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
+/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
+
+      
+      
+      
+      
+      
+      
+  
+      
+      const { processEnv } = __webpack_require__("fXeI")
+      processEnv([])
+    
+      
+      const runtimeConfig = {}
+      
+  
+      const appMod = __webpack_require__("IlR1")
+      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
+  
+      const compMod = __webpack_require__("vg2q")
+  
+      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
+      /* harmony default export */ __webpack_exports__["default"] = (Component);
+      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
+      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
+      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
+  
+      // kept for detecting legacy exports
+      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
+      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
+      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
+      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
+  
+      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
+      const _app = App
+  
+      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
+        pageModule: compMod,
+        pageComponent: Component,
+        pageConfig: config,
+        appModule: App,
+        documentModule: __webpack_require__("senJ"),
+        errorModule: __webpack_require__("URMD"),
+        notFoundModule: undefined,
+        pageGetStaticProps: getStaticProps,
+        pageGetStaticPaths: getStaticPaths,
+        pageGetServerSideProps: getServerSideProps,
+  
+        assetPrefix: "",
+        canonicalBase: "",
+        generateEtags: true,
+        poweredByHeader: true,
+  
+        runtimeConfig,
+        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
+        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
+  
+        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
+        i18n: undefined,
+        page: "/shop",
+        buildId: "AJ58cB6SxeeUMRF_cA2_r",
+        escapedBuildId: "AJ58cB6SxeeUMRF_cA2_r",
+        basePath: "",
+        pageIsDynamic: false,
+        encodedPreviewProps: {previewModeId:"921fbe5ed44a651a48566335870e9f68",previewModeSigningKey:"eee0298a04b39965873e0c90b28fede84c196a4b6f54baa58650bcf36db378aa",previewModeEncryptionKey:"85668d071c03c127bb2ca7c7d88da61dc892983e8b45f72fb0335ebd506216aa"},
+        experimental: {
+          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
+          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
+        }
+      })
+      
+    
 
 /***/ }),
 
@@ -10675,7 +10778,7 @@ module.exports = function(module) {
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-d6f8b8d7b62ee8b8f104.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/3-rzc-opquGb9qdcZwrrH/_buildManifest.js\",\"static/3-rzc-opquGb9qdcZwrrH/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.95f9b8d77cd9ce50c066.js\",\"static/chunks/pages/index-959da512bccf5f36d69e.js\"],\"/_app\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/css/018a0ee2ed4ad6271562.css\",\"static/chunks/pages/_app-36a8ef868437c38afcda.js\"],\"/_error\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/pages/_error-96d235f995a6ae428165.js\"],\"/about/about\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.95f9b8d77cd9ce50c066.js\",\"static/chunks/pages/about/about-e1e11c3c56841e404628.js\"],\"/about/about-francois\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/about/about-francois-26d91432765ef311a8da.js\"],\"/about/giving-back\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/giving-back-ad4f6fe2cd8fb7145365.js\"],\"/about/our-story\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/pages/about/our-story-023a1a955ba151ef2743.js\"],\"/about/request\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/request-5142bf5e674a1650d508.js\"],\"/about/washing-stations\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/washing-stations-c54c516247d9427c0035.js\"],\"/blog\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/blog-eb3a738252ef20d27bcf.js\"],\"/blog/post/[slug]\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/blog/post/[slug]-78122e648d2f8b479840.js\"],\"/contact\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/pages/contact-0bdb5f722af1a9322a04.js\"],\"/legal/privacy\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/legal/privacy-3f62cd32712372d760d7.js\"],\"/legal/terms\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/legal/terms-76a47da5e9cd4541186a.js\"],\"/other/services\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.95f9b8d77cd9ce50c066.js\",\"static/chunks/pages/other/services-27a367d4ccc43a8be942.js\"],\"/shop\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop-5cf1a61f5a235c448341.js\"],\"/shop/cart\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/cart-f07cc6a252ebbd19f9c7.js\"],\"/shop/checkout\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/checkout-518711b70050af554e8d.js\"],\"/shop/fullwidth-4col\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/fullwidth-4col-b1a5482e4cf77eb7fa3c.js\"],\"/shop/fullwidth-5col\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/fullwidth-5col-8579c3024b9b6c9490c5.js\"],\"/shop/fullwidth-left-sidebar\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/fullwidth-left-sidebar-fa6db646d746784e138f.js\"],\"/shop/fullwidth-right-sidebar\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/fullwidth-right-sidebar-d291e5004904dabcbbc9.js\"],\"/shop/grid-3col\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/grid-3col-763ef3d1bb6f45858d9e.js\"],\"/shop/grid-4col\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/grid-4col-e1e7fee3e17001fc1045.js\"],\"/shop/grid-sidebar\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/grid-sidebar-8763cfb8d2b73a507a51.js\"],\"/shop/list-sidebar\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/4a39bb3c45b47f33d2099101b4724f8c90bbd007.1be458a59407bc24888a.js\",\"static/chunks/pages/shop/list-sidebar-f9bb6e1408589e3d6e71.js\"],\"/shop/product/[slug]\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/ad783281a654fba74c4fb30a1ca2243448a017b0.38766dbe0f273a7f9dab.js\",\"static/chunks/pages/shop/product/[slug]-5b206209c1cf795e9337.js\"],\"/shop/wishlist\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/bb6e5632e698d10305e820b9918a02085792aa1e.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/wishlist-27c3e829d56a663ff9b8.js\"],\"/washing-stations/busanze\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/washing-stations/busanze-94fe95b349b84838359e.js\"],\"/washing-stations/butambamo\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/washing-stations/butambamo-d1d60620f530ba08cb87.js\"],\"/washing-stations/gatare\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/washing-stations/gatare-3f1468b0d7b8bcc1f09a.js\"],\"/washing-stations/kiyumba\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/50c22a7888d8ffea1eb1f6dc44cb140e75d3fea7.23d8e1917bdcebc7c97f.js\",\"static/chunks/a4f480f172ba91151014c7fc4b89ec21f4c72fc9.7ad3e2eac358afd4e0f7.js\",\"static/chunks/0930a348460989d093e9b560cab372a45fc41a2b.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.d076eeefde257c584147.js\",\"static/chunks/pages/washing-stations/kiyumba-962c43f83aa3b602871a.js\"]},\"ampFirstPages\":[]}");
+module.exports = JSON.parse("{\"polyfillFiles\":[\"static/chunks/polyfills-7ee9047ae65ef697530c.js\"],\"devFiles\":[],\"ampDevFiles\":[],\"lowPriorityFiles\":[\"static/AJ58cB6SxeeUMRF_cA2_r/_buildManifest.js\",\"static/AJ58cB6SxeeUMRF_cA2_r/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/bc995eac684acf07d7fb52ecf471daa345a533e6.5af2ab5e2d370893959c.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.fde47eb00da7bbfb7be0.js\",\"static/chunks/pages/index-7dae49aa878c6d6b7b0e.js\"],\"/_app\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/css/018a0ee2ed4ad6271562.css\",\"static/chunks/pages/_app-36a8ef868437c38afcda.js\"],\"/_error\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/pages/_error-96d235f995a6ae428165.js\"],\"/about/about\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.fde47eb00da7bbfb7be0.js\",\"static/chunks/pages/about/about-18ad606f6a35f296edd3.js\"],\"/about/about-francois\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/about/about-francois-cd27bbf770aa11139b6b.js\"],\"/about/giving-back\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/giving-back-ad4f6fe2cd8fb7145365.js\"],\"/about/our-story\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/pages/about/our-story-9a0ed5b5d340e277bffc.js\"],\"/about/request\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/request-5142bf5e674a1650d508.js\"],\"/about/washing-stations\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/about/washing-stations-c54c516247d9427c0035.js\"],\"/blog\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/46bbb59be6ce6bd60ba20d1af60a3970f1df642b.d0fcf4e1b14048aa6d82.js\",\"static/chunks/pages/blog-784e278ddca4788a503b.js\"],\"/blog/post/[slug]\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/blog/post/[slug]-c820bb9e91fed4c0e3bc.js\"],\"/contact\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/pages/contact-7d00d576a4e8a078abe9.js\"],\"/legal/privacy\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/legal/privacy-3f62cd32712372d760d7.js\"],\"/legal/terms\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/pages/legal/terms-76a47da5e9cd4541186a.js\"],\"/other/services\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/8da98207af32ad686974c37090960da116df6bff.fde47eb00da7bbfb7be0.js\",\"static/chunks/pages/other/services-1e65ee04f0555cee8905.js\"],\"/shop\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/bc995eac684acf07d7fb52ecf471daa345a533e6.5af2ab5e2d370893959c.js\",\"static/chunks/46bbb59be6ce6bd60ba20d1af60a3970f1df642b.d0fcf4e1b14048aa6d82.js\",\"static/chunks/pages/shop-bb038cb1ce7416786410.js\"],\"/shop/cart\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/cart-f07cc6a252ebbd19f9c7.js\"],\"/shop/checkout\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/checkout-54440a357bd293f3ade8.js\"],\"/shop/product/[slug]\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/bc995eac684acf07d7fb52ecf471daa345a533e6.5af2ab5e2d370893959c.js\",\"static/chunks/pages/shop/product/[slug]-0f967f59c47e123f14c3.js\"],\"/shop/wishlist\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/bafdbd6bdf887fa351c7ccb3b9beacb338752639.2fa63a571cec96011b2a.js\",\"static/chunks/pages/shop/wishlist-1fcef9fdb1bc52e704c8.js\"],\"/washing-stations/busanze\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/washing-stations/busanze-d187f70cca66944e062d.js\"],\"/washing-stations/butambamo\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/washing-stations/butambamo-7b026a8435072d78d458.js\"],\"/washing-stations/gatare\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/washing-stations/gatare-1bfa98159a8bbc5179f8.js\"],\"/washing-stations/kiyumba\":[\"static/chunks/main-e595aff7ed68f807f5d7.js\",\"static/chunks/webpack-245f049e565ebf942e09.js\",\"static/chunks/framework.50c3b31bc23dfcb1af3f.js\",\"static/chunks/commons.f3377d768d8fa8efb549.js\",\"static/chunks/2ac430d8fe4c2897975d33813e54eea468768a80.23d8e1917bdcebc7c97f.js\",\"static/chunks/e191f6e236f51fa29ffec7100c468c3c40c147ab.7ad3e2eac358afd4e0f7.js\",\"static/chunks/ed191c2317ff7955318dcf9def2bf1b90bfe8750.5211f40851c0e4ef9afc.js\",\"static/chunks/1f95913b97cb16483b90bd38659d832ceb9b2928.63acca9546400f6ac9e5.js\",\"static/chunks/pages/washing-stations/kiyumba-c39310c4ee011fa9187b.js\"]},\"ampFirstPages\":[]}");
 
 /***/ }),
 
@@ -13707,66 +13810,6 @@ if (typeof Object.create === 'function') {
   }
 }
 
-
-/***/ }),
-
-/***/ "P7bw":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopHeader; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("q1tI");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Control_Select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("lmm/");
-/* harmony import */ var _common_variables__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("J+Fc");
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-function ShopHeader({
-  curentView,
-  getCurrentView,
-  getCurrentSort
-}) {
-  const {
-    0: view,
-    1: setView
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(curentView ? curentView : _common_variables__WEBPACK_IMPORTED_MODULE_2__[/* shop */ "b"].DEFAULT_VIEW);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    getCurrentView && getCurrentView(view);
-  }, [view]);
-  return __jsx("div", {
-    className: "shop-header"
-  }, __jsx("div", {
-    className: "shop-header__view"
-  }, __jsx("div", {
-    className: "shop-header__view__icon"
-  }, __jsx("a", {
-    href: "" + "#",
-    className: view === "grid" ? "active" : "",
-    onClick: e => {
-      e.preventDefault();
-      setView("grid");
-    }
-  }, __jsx("i", {
-    className: "fas fa-th"
-  })), __jsx("a", {
-    href: "" + "#",
-    className: view === "list" ? "active" : "",
-    onClick: e => {
-      e.preventDefault();
-      setView("list");
-    }
-  }, __jsx("i", {
-    className: "fas fa-bars"
-  }))), view === "grid" && __jsx("h5", {
-    className: "shop-header__page"
-  }, "Shop Roasted Coffee")), __jsx(_Control_Select__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
-    options: _common_variables__WEBPACK_IMPORTED_MODULE_2__[/* shop */ "b"].SORT_TYPES,
-    getValue: getCurrentSort
-  }));
-}
 
 /***/ }),
 
@@ -21499,109 +21542,6 @@ module.exports = JSON.parse("[[\"8740\",\"䏰䰲䘃䖦䕸𧉧䵷䖳𧲱䳢𧳅�
 
 /***/ }),
 
-/***/ "cigy":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticProps", function() { return getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStaticPaths", function() { return getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticParams", function() { return unstable_getStaticParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticProps", function() { return unstable_getStaticProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getStaticPaths", function() { return unstable_getStaticPaths; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unstable_getServerProps", function() { return unstable_getServerProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "config", function() { return config; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_app", function() { return _app; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderReqToHTML", function() { return renderReqToHTML; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony import */ var next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("GX0O");
-/* harmony import */ var next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("KqAr");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("fkL1");
-/* harmony import */ var next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_next_server_server_node_polyfill_fetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("Skye");
-var private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t("Skye", 1);
-/* harmony import */ var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("LZ9C");
-var private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t("LZ9C", 1);
-/* harmony import */ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("67Bq");
-var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("67Bq", 1);
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("7ZOo");
-/* harmony import */ var next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__);
-
-      
-      
-      
-      
-      
-      
-  
-      
-      const { processEnv } = __webpack_require__("fXeI")
-      processEnv([])
-    
-      
-      const runtimeConfig = {}
-      
-  
-      const appMod = __webpack_require__("IlR1")
-      let App = appMod.default || appMod.then && appMod.then(mod => mod.default);
-  
-      const compMod = __webpack_require__("vg2q")
-  
-      const Component = compMod.default || compMod.then && compMod.then(mod => mod.default)
-      /* harmony default export */ __webpack_exports__["default"] = (Component);
-      const getStaticProps = compMod['getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['getStaticProp' + 's'])
-      const getStaticPaths = compMod['getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['getStaticPath' + 's'])
-      const getServerSideProps = compMod['getServerSideProp' + 's'] || compMod.then && compMod.then(mod => mod['getServerSideProp' + 's'])
-  
-      // kept for detecting legacy exports
-      const unstable_getStaticParams = compMod['unstable_getStaticParam' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticParam' + 's'])
-      const unstable_getStaticProps = compMod['unstable_getStaticProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticProp' + 's'])
-      const unstable_getStaticPaths = compMod['unstable_getStaticPath' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getStaticPath' + 's'])
-      const unstable_getServerProps = compMod['unstable_getServerProp' + 's'] || compMod.then && compMod.then(mod => mod['unstable_getServerProp' + 's'])
-  
-      let config = compMod['confi' + 'g'] || (compMod.then && compMod.then(mod => mod['confi' + 'g'])) || {}
-      const _app = App
-  
-      const { renderReqToHTML, render } = Object(next_dist_build_webpack_loaders_next_serverless_loader_page_handler__WEBPACK_IMPORTED_MODULE_6__["getPageHandler"])({
-        pageModule: compMod,
-        pageComponent: Component,
-        pageConfig: config,
-        appModule: App,
-        documentModule: __webpack_require__("senJ"),
-        errorModule: __webpack_require__("URMD"),
-        notFoundModule: undefined,
-        pageGetStaticProps: getStaticProps,
-        pageGetStaticPaths: getStaticPaths,
-        pageGetServerSideProps: getServerSideProps,
-  
-        assetPrefix: "",
-        canonicalBase: "",
-        generateEtags: true,
-        poweredByHeader: true,
-  
-        runtimeConfig,
-        buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
-        reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_5__,
-  
-        rewrites: private_dot_next_routes_manifest_json__WEBPACK_IMPORTED_MODULE_3__.rewrites,
-        i18n: undefined,
-        page: "/shop",
-        buildId: "3-rzc-opquGb9qdcZwrrH",
-        escapedBuildId: "3\-rzc\-opquGb9qdcZwrrH",
-        basePath: "",
-        pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"5c2ab8f9b3c139d38f707283ed163ff9",previewModeSigningKey:"7eb9fba1616582fc8d76f644aff4ea473a0dec156914db1849b537d1dc8213d4",previewModeEncryptionKey:"1ef58a31dd1b067d626eda35b984390495b886a21cc573377cf0ea2f4ae0e8cc"},
-        experimental: {
-          onError: next_plugin_loader_middleware_on_error_server___WEBPACK_IMPORTED_MODULE_1__["default"],
-          initServer: next_plugin_loader_middleware_on_init_server___WEBPACK_IMPORTED_MODULE_0__["default"],
-        }
-      })
-      
-    
-
-/***/ }),
-
 /***/ "d/QP":
 /***/ (function(module, exports) {
 
@@ -23652,74 +23592,6 @@ function readStream (stream, encoding, length, limit, callback) {
   }
 }
 
-
-/***/ }),
-
-/***/ "fg+H":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopProducts; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("q1tI");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Product__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("/LDh");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("TSYQ");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-function ShopProducts(props) {
-  const {
-    gridColClass,
-    listColClass,
-    fiveCol,
-    view,
-    data
-  } = props;
-  let arr = [5];
-
-  for (var i = 0; i < Math.round(data.length / 5); i++) {
-    arr.push(arr[i] + 6);
-  }
-
-  return __jsx("div", {
-    className: "shop-products"
-  }, view === "grid" ? __jsx("div", {
-    className: "shop-products__grid"
-  }, data && __jsx("div", {
-    className: "row"
-  }, data.map((item, index) => {
-    if (fiveCol) {
-      if (arr.includes(index)) {
-        return __jsx("div", {
-          key: index,
-          className: "w-100"
-        });
-      }
-    }
-
-    return __jsx("div", {
-      key: index,
-      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(gridColClass, {
-        "five-col": fiveCol
-      })
-    }, __jsx(_Product__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
-      data: item
-    }));
-  }))) : __jsx("div", {
-    className: "shop-products__list"
-  }, data && __jsx("div", {
-    className: "row"
-  }, data.map((item, index) => __jsx("div", {
-    key: index,
-    className: listColClass
-  }, __jsx(_Product__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
-    type: view,
-    data: item,
-    type: "list"
-  }))))));
-}
 
 /***/ }),
 
@@ -30486,10 +30358,10 @@ const Breadcrumb = ({
 "use strict";
 /* unused harmony export getProducts */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return getProductBySlug; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getProductBySort; });
+/* unused harmony export getProductBySort */
 /* unused harmony export getProductByPrice */
 /* unused harmony export getProductByBrand */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return getProductbyFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getProductbyFilter; });
 //get product
 const getProducts = (products, category, type, limit) => {
   category = category && category.toLowerCase() === "all" ? "" : category;
@@ -36423,21 +36295,153 @@ function _default(name, version, hashfunc) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("q1tI");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_hooks_paginator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("DiQT");
-/* harmony import */ var react_hooks_paginator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_hooks_paginator__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Other_Breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("m9Y6");
-/* harmony import */ var _common_productSelect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("mK+b");
-/* harmony import */ var _components_Layout_LayoutFour__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("6QH/");
-/* harmony import */ var _data_products_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("iagI");
-var _data_products_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t("iagI", 1);
-/* harmony import */ var _components_Shop_ShopProducts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("fg+H");
-/* harmony import */ var _components_Shop_ShopHeader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("P7bw");
-/* harmony import */ var _components_Sections_Instagram_InstagramTwo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("Npp4");
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__("q1tI");
+var react_default = /*#__PURE__*/__webpack_require__.n(react);
+
+// EXTERNAL MODULE: ./node_modules/react-hooks-paginator/dist/index.cjs.js
+var index_cjs = __webpack_require__("DiQT");
+var index_cjs_default = /*#__PURE__*/__webpack_require__.n(index_cjs);
+
+// EXTERNAL MODULE: ./src/components/Other/Breadcrumb.js
+var Breadcrumb = __webpack_require__("m9Y6");
+
+// EXTERNAL MODULE: ./src/common/productSelect.js
+var productSelect = __webpack_require__("mK+b");
+
+// EXTERNAL MODULE: ./src/components/Layout/LayoutFour.js + 2 modules
+var LayoutFour = __webpack_require__("6QH/");
+
+// EXTERNAL MODULE: ./src/data/products.json
+var products = __webpack_require__("iagI");
+
+// EXTERNAL MODULE: ./src/components/Product/index.js + 2 modules
+var Product = __webpack_require__("/LDh");
+
+// EXTERNAL MODULE: ./node_modules/classnames/index.js
+var classnames = __webpack_require__("TSYQ");
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+
+// CONCATENATED MODULE: ./src/components/Shop/ShopProducts.js
+var __jsx = react_default.a.createElement;
+
+
+
+function ShopProducts(props) {
+  const {
+    gridColClass,
+    listColClass,
+    fiveCol,
+    view,
+    data
+  } = props;
+  let arr = [5];
+
+  for (var i = 0; i < Math.round(data.length / 5); i++) {
+    arr.push(arr[i] + 6);
+  }
+
+  return __jsx("div", {
+    className: "shop-products"
+  }, view === "grid" ? __jsx("div", {
+    className: "shop-products__grid"
+  }, data && __jsx("div", {
+    className: "row"
+  }, data.map((item, index) => {
+    if (fiveCol) {
+      if (arr.includes(index)) {
+        return __jsx("div", {
+          key: index,
+          className: "w-100"
+        });
+      }
+    }
+
+    return __jsx("div", {
+      key: index,
+      className: classnames_default()(gridColClass, {
+        "five-col": fiveCol
+      })
+    }, __jsx(Product["a" /* default */], {
+      data: item
+    }));
+  }))) : __jsx("div", {
+    className: "shop-products__list"
+  }, data && __jsx("div", {
+    className: "row"
+  }, data.map((item, index) => __jsx("div", {
+    key: index,
+    className: listColClass
+  }, __jsx(Product["a" /* default */], {
+    type: view,
+    data: item,
+    type: "list"
+  }))))));
+}
+// EXTERNAL MODULE: ./src/components/Control/Select.js
+var Select = __webpack_require__("lmm/");
+
+// EXTERNAL MODULE: ./src/common/variables.js
+var variables = __webpack_require__("J+Fc");
+
+// CONCATENATED MODULE: ./src/components/Shop/ShopHeader.js
+
+var ShopHeader_jsx = react_default.a.createElement;
+
+
+
+function ShopHeader({
+  curentView,
+  getCurrentView,
+  getCurrentSort
+}) {
+  const {
+    0: view,
+    1: setView
+  } = Object(react["useState"])(curentView ? curentView : variables["b" /* shop */].DEFAULT_VIEW);
+  Object(react["useEffect"])(() => {
+    getCurrentView && getCurrentView(view);
+  }, [view]);
+  return ShopHeader_jsx("div", {
+    className: "shop-header"
+  }, ShopHeader_jsx("div", {
+    className: "shop-header__view"
+  }, ShopHeader_jsx("div", {
+    className: "shop-header__view__icon"
+  }, ShopHeader_jsx("a", {
+    href: "" + "#",
+    className: view === "grid" ? "active" : "",
+    onClick: e => {
+      e.preventDefault();
+      setView("grid");
+    }
+  }, ShopHeader_jsx("i", {
+    className: "fas fa-th"
+  })), ShopHeader_jsx("a", {
+    href: "" + "#",
+    className: view === "list" ? "active" : "",
+    onClick: e => {
+      e.preventDefault();
+      setView("list");
+    }
+  }, ShopHeader_jsx("i", {
+    className: "fas fa-bars"
+  }))), view === "grid" && ShopHeader_jsx("h5", {
+    className: "shop-header__page"
+  }, "Shop Roasted Coffee")), ShopHeader_jsx(Select["a" /* default */], {
+    options: variables["b" /* shop */].SORT_TYPES,
+    getValue: getCurrentSort
+  }));
+}
+// EXTERNAL MODULE: ./src/components/Sections/Instagram/InstagramTwo.js
+var InstagramTwo = __webpack_require__("Npp4");
+
+// CONCATENATED MODULE: ./src/pages/shop.js
+
+var shop_jsx = react_default.a.createElement;
 
 
 
@@ -36447,64 +36451,64 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
+/* harmony default export */ var shop = __webpack_exports__["default"] = (function () {
   const pageLimit = 12;
   const {
     0: offset,
     1: setOffset
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
+  } = Object(react["useState"])(0);
   const {
     0: currentView,
     1: setCurrentView
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])();
+  } = Object(react["useState"])();
   const {
     0: currentSort,
     1: setCurrentSort
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])();
+  } = Object(react["useState"])();
   const {
     0: currentPage,
     1: setCurrentPage
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(1);
+  } = Object(react["useState"])(1);
   const {
     0: currentData,
     1: setCurrentData
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    let sortedProduct = Object(_common_productSelect__WEBPACK_IMPORTED_MODULE_3__[/* getProductbyFilter */ "c"])(_data_products_json__WEBPACK_IMPORTED_MODULE_5__, currentSort);
+  } = Object(react["useState"])([]);
+  Object(react["useEffect"])(() => {
+    let sortedProduct = Object(productSelect["b" /* getProductbyFilter */])(products, currentSort);
     setCurrentData(sortedProduct.slice(offset, offset + pageLimit));
   }, [offset, currentSort]);
-  return __jsx(_components_Layout_LayoutFour__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
+  return shop_jsx(LayoutFour["a" /* default */], {
     title: "Shop Our Coffee",
     container: "wide"
-  }, __jsx(_components_Other_Breadcrumb__WEBPACK_IMPORTED_MODULE_2__[/* Breadcrumb */ "a"], {
+  }, shop_jsx(Breadcrumb["a" /* Breadcrumb */], {
     title: "Shop Our Coffee"
-  }, __jsx(_components_Other_Breadcrumb__WEBPACK_IMPORTED_MODULE_2__[/* BreadcrumbItem */ "b"], {
+  }, shop_jsx(Breadcrumb["b" /* BreadcrumbItem */], {
     name: "Home"
-  }), __jsx(_components_Other_Breadcrumb__WEBPACK_IMPORTED_MODULE_2__[/* BreadcrumbItem */ "b"], {
+  }), shop_jsx(Breadcrumb["b" /* BreadcrumbItem */], {
     name: "Shop",
     current: true
-  })), __jsx("div", {
+  })), shop_jsx("div", {
     className: "shop"
-  }, __jsx("div", {
+  }, shop_jsx("div", {
     className: "container-full-half"
-  }, __jsx(_components_Shop_ShopHeader__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"], {
+  }, shop_jsx(ShopHeader, {
     view: currentView,
     getCurrentSort: setCurrentSort,
     getCurrentView: view => setCurrentView(view)
-  }), __jsx(_components_Shop_ShopProducts__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
+  }), shop_jsx(ShopProducts, {
     gridColClass: "col-12 col-sm-6 col-md-4 col-lg-3",
     listColClass: "col-12 col-lg-6",
     view: currentView,
     data: currentData
-  }), __jsx(react_hooks_paginator__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }), shop_jsx(index_cjs_default.a, {
     pageContainerClass: "paginator",
-    totalRecords: _data_products_json__WEBPACK_IMPORTED_MODULE_5__.length,
+    totalRecords: products.length,
     pageLimit: pageLimit,
     pageNeighbours: 2,
     setOffset: setOffset,
     currentPage: currentPage,
     setCurrentPage: setCurrentPage
-  }))), __jsx(_components_Sections_Instagram_InstagramTwo__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"], null));
+  }))), shop_jsx(InstagramTwo["a" /* default */], null));
 });
 
 /***/ }),

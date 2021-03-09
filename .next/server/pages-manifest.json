@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/about/about-francois": "pages/about/about-francois.js",
-  "/about/our-story": "pages/about/our-story.js"
+  "/about/our-story": "pages/about/our-story.js",
+  "/contact": "pages/contact.js"
 }

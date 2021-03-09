@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/about-francois": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/about/about-francois.js"
-    ],
     "/about/our-story": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/about/our-story.js"
+    ],
+    "/contact": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/contact.js"
     ]
   },
   "ampFirstPages": []

@@ -3,13 +3,13 @@ import { useForm } from "react-hook-form";
 
 export default function ContactForm(style) {
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = (data) => console.log(data);
+    // const onSubmit = (data) => console.log(data);
     
     return (
         <div className="col-12 col-md-6">
             <h3 className="contact-title">Get In Touch</h3>
             <div className="contact-form">
-                <form onSubmit={handleSubmit(onSubmit)} name="Contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field">
+                <form name="Contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="Contact" />
                     <div className="input-validator">
                         <input
