@@ -11,15 +11,16 @@ export default function IntroductionThirteen(data) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6">
                 {/* GATARE */}
+                <span className="anchor" id="gatare"></span>
                 <div className="introduction-seven__wrapper__content__detail">
                   <h5>Natural Spring</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
                     Nyamasheke District
                   </SectionTitleOne>
                   <h3>Gatare Station</h3>
-                  <p>
+                  {/* <p>
                   Gatare Station is more than a business, they've become a family with 25 permanent employees -- more than 20 of whom have been there for more than a decade.{" "}
-                  </p>
+                  </p> */}
                   <Button
                     action="/washing-stations/gatare"
                     color="dark"
@@ -55,15 +56,16 @@ export default function IntroductionThirteen(data) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6 ml-auto">
                 {/* KIYUMBA */}
+                <span className="anchor" id="kiyumba"></span>
                 <div className="introduction-seven__wrapper__content__detail">
                 <h5>Natural Spring</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
                     Muhanga District
                   </SectionTitleOne>
                   <h3>Kiyumba Station</h3>
-                  <p>
+                  {/* <p>
                   Established in 2018 in the Muhanga District near Ndiza Hills, the Kiyumba Station is the newest washing station that we operate. This station was created after realizing that the region did not have a competiting station, but produces the highest quality of coffee.{" "}
-                  </p>
+                  </p> */}
                   <Button
                     action="/washing-stations/kiyumba"
                     color="dark"

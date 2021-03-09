@@ -23,6 +23,9 @@ $avaiableBtnColors: (
   border: 0;
   letter-spacing: emCal(13, 1.3);
   @include prefix(appearance, none);
+  &.-line {
+    margin-right: 2rem;
+  }
   &.-disable {
     pointer-events: none;
     cursor: not-allowed;

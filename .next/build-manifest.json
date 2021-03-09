@@ -24,15 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/washing-stations/gatare": [
+    "/about/washing-stations": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/washing-stations/gatare.js"
-    ],
-    "/washing-stations/kiyumba": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/washing-stations/kiyumba.js"
+      "static/chunks/pages/about/washing-stations.js"
     ]
   },
   "ampFirstPages": []
