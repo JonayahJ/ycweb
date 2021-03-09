@@ -29,10 +29,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/about/about-francois": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/about/about-francois.js"
+    ],
+    "/shop/checkout": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/shop/checkout.js"
+    ],
+    "/shop/product/[slug]": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/shop/product/[slug].js"
     ]
   },
   "ampFirstPages": []

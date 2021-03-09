@@ -8,7 +8,7 @@ import InstagramTwo from "../../components/Sections/Instagram/InstagramTwo";
 import { formatCurrency, formatSingleNumber } from "../../common/utils";
 import { calculateTotalPrice } from "../../common/shopUtils";
 
-export default function () {
+export default function checkout() {
   const cartState = useSelector((state) => state.cartReducer);
   const { register, handleSubmit, errors } = useForm();
   const {
@@ -61,7 +61,7 @@ export default function () {
                         name="subcribeNews"
                         ref={register}
                       />
-                      Keep me up to dateon news and exclusive offers
+                      Keep me up to date on news and exclusive offers
                     </label>
                   </div>
                   <div className="checkout__form__shipping">
