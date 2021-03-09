@@ -12,13 +12,13 @@ export default function IntroductionTwelve(data) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6">
                 {/* BUSANZE */}
-                <span className="anchor" id="busanze"></span>
                 <div className="introduction-seven__wrapper__content__detail">
                   <h5>Mountain Natural Spring</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
                     Nyaruguru District
                   </SectionTitleOne>
                   <h3>Busanze Station</h3>
+                  <span className="anchor" id="busanze"></span>
                   {/* <p>
                     The washing station is located at the edges of Nyungwe forest which allows the nearby coffee trees to grow in the shade of other trees. This gives beans to be rich in density and aroma.{" "}
                   </p> */}
@@ -60,13 +60,13 @@ export default function IntroductionTwelve(data) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6 ml-auto">
                 {/* BUTAMBAMO */}
-                <span className="anchor" id="butambamo"></span>
                 <div className="introduction-seven__wrapper__content__detail">
                 <h5>Mountain Natural Spring</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
                     Rusizi District
                   </SectionTitleOne>
                   <h3>Butambamo Station</h3>
+                  <span className="anchor" id="butambamo"></span>
                   {/* <p>
                     Farms in the Butambamo area are mostly owned by farmers cooperatives that own the land in the mountains of Nzahaha, a well-known region for fertile sandy loam soil alongside the Rusizi River.{" "}
                   </p> */}
