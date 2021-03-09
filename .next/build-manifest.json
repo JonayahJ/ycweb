@@ -24,21 +24,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/washing-stations": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/about/washing-stations.js"
-    ],
-    "/washing-stations/busanze": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/washing-stations/busanze.js"
-    ],
-    "/washing-stations/butambamo": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/washing-stations/butambamo.js"
-    ],
     "/washing-stations/gatare": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
