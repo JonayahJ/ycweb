@@ -1,15 +1,14 @@
 // Contact Form to go on the Contact page
 import { useForm } from "react-hook-form";
 
-export default function ContactForm(style) {
-    const { register, handleSubmit, watch, errors } = useForm();
-    // const onSubmit = (data) => console.log(data);
+export default function ContactForm() {
+    const { register, errors } = useForm();
     
     return (
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6" netlify="true">
             <h3 className="contact-title">Get In Touch</h3>
-            <div className="contact-form">
-                <form name="Contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field">
+            <div className="contact-form" netlify="true">
+                <form name="Contact" method="POST" data-netlify="true" netlify="true" netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="Contact" />
                     <div className="input-validator">
                         <input
@@ -38,7 +37,7 @@ export default function ContactForm(style) {
                     <div className="input-validator">
                         <textarea
                             name="message"
-                            id=""
+                            // id=""
                             cols="30"
                             rows="3"
                             placeholder="Message"

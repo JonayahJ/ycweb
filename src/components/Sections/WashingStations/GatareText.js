@@ -1,5 +1,6 @@
 import SectionTitleOne from "../SectionTitle/SectionTitleOne";
 import ImageLightbox from "../../Control/ImageLightbox";
+import Button from "../../Control/Button";
 
 export default function BusanzeText(style) {
   return (
@@ -23,6 +24,19 @@ export default function BusanzeText(style) {
             <br />
             Within Nyamasheke District, Gatare Station can be found in the localities that surround Kivu Lake, which is a few miles from the Nyungwe Forest. Generally, coffee from Gatare Station comes from the Kivu Belt and the mountains of the Nyungwe Forest edges. Gatare Station is more than a business, they've become a family with 25 permanent employees -- more than 20 of whom have been there for more than a decade. It is for that stability that Gatare Station has been a place where Impexcor Coffee conducts most of its research and trials of the new coffee process. Gatare Station was the first station to produce the natural and honey process. Believe me, we are the best in these processes!
           </p>
+        </div>
+        {/* Bottom Buttons */}
+        <div className="row" style={{marginBottom: "4rem"}}>
+          <Button 
+            action="/about/washing-stations"
+            color="royal-dark-blue"
+            content="Back" 
+          />
+          <Button 
+            action="/about/request"
+            color="light"
+            content="Request a Sample" 
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import SectionTitleOne from "../SectionTitle/SectionTitleOne";
 import ImageLightbox from "../../Control/ImageLightbox";
+import Button from "../../Control/Button";
 
 export default function BusanzeText(style) {
   return (
@@ -29,6 +30,19 @@ export default function BusanzeText(style) {
           <p className="post-paragraph">
             Busanze Station is 50% owned by the village's farmers cooperative and the other half is owned by the processing company, Impexcor Coffee. This gives the farmer a voice to decide the future of the coffee they produce. This practice creates a sense of ownership that motivates farmers to improve the quality of the coffee.  And it is for that reason that coffee from Busanze has recently won multiple awards including the Alliance Cup of Excellence in 2018.
           </p>
+        </div>
+        {/* Bottom Buttons */}
+        <div className="row" style={{marginBottom: "4rem"}}>
+          <Button 
+            action="/about/washing-stations"
+            color="royal-dark-blue"
+            content="Back" 
+          />
+          <Button 
+            action="/about/request"
+            color="light"
+            content="Request a Sample" 
+          />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import HeaderFour from "../Header/HeaderFour";
 
 let ScrollFixedHeader = withScrollFixed(HeaderFour);
 
-export default function LayoutFour(props) {
+export default function LayoutFour(props) {  
   return (
     <>
       <Head>

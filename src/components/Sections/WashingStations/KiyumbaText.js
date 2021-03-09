@@ -1,5 +1,6 @@
 import SectionTitleOne from "../SectionTitle/SectionTitleOne";
 import ImageLightbox from "../../Control/ImageLightbox";
+import Button from "../../Control/Button";
 
 export default function BusanzeText(style) {
   return (
@@ -26,6 +27,19 @@ export default function BusanzeText(style) {
           <p className="post-paragraph">
             The famers who work these sectors comprise a large cooperative of 1,300 members called COCAM.  This cooperative is composed of 440 women and 860 men.  Together, they are currently growing 566,582 coffee trees on only 342 ha. The processing company, Impexcor Coffee, aims to provide training on the welfare of farmers, on increasing sensitivity to female farmers to hopefully incentivize them joining the cooperatives, and on cultivating the nearby coffee nursery.
           </p>
+        </div>
+        {/* Bottom Buttons */}
+        <div className="row" style={{marginBottom: "4rem"}}>
+          <Button 
+            action="/about/washing-stations"
+            color="royal-dark-blue"
+            content="Back" 
+          />
+          <Button 
+            action="/about/request"
+            color="light"
+            content="Request a Sample" 
+          />
         </div>
       </div>
     </div>

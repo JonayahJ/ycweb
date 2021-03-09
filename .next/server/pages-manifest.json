@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/about/our-story": "pages/about/our-story.js",
-  "/contact": "pages/contact.js"
+  "/about/washing-stations": "pages/about/washing-stations.js",
+  "/washing-stations/busanze": "pages/washing-stations/busanze.js",
+  "/washing-stations/butambamo": "pages/washing-stations/butambamo.js",
+  "/washing-stations/gatare": "pages/washing-stations/gatare.js",
+  "/washing-stations/kiyumba": "pages/washing-stations/kiyumba.js"
 }

@@ -24,15 +24,30 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/our-story": [
+    "/about/washing-stations": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/about/our-story.js"
+      "static/chunks/pages/about/washing-stations.js"
     ],
-    "/contact": [
+    "/washing-stations/busanze": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/washing-stations/busanze.js"
+    ],
+    "/washing-stations/butambamo": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/washing-stations/butambamo.js"
+    ],
+    "/washing-stations/gatare": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/washing-stations/gatare.js"
+    ],
+    "/washing-stations/kiyumba": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/washing-stations/kiyumba.js"
     ]
   },
   "ampFirstPages": []

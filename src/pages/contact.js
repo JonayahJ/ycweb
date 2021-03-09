@@ -1,5 +1,3 @@
-import { useForm } from "react-hook-form";
-
 import LayoutFour from "../components/Layout/LayoutFour";
 import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
 import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
@@ -8,17 +6,15 @@ import contactData from "../data/pages/contact.json";
 import ContactForm from "../components/Sections/Forms/ContactForm"
 
 export default function Contact() {
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
   return (
     <LayoutFour title="Contact Us">
       <Breadcrumb title="Contact Us">
         <BreadcrumbItem name="Home" />
         <BreadcrumbItem name="Contact Us" current />
       </Breadcrumb>
-      <div className="contact">
-        <div className="container">
-          <div className="row">
+      <div className="contact" netlify="true">
+        <div className="container" netlify="true">
+          <div className="row" netlify="true">
             <div className="col-12 col-md-6">
               <h3 className="contact-title">Contact Info</h3>
               {contactData &&
@@ -31,7 +27,7 @@ export default function Contact() {
                   />
                 ))}
             </div>
-            <ContactForm />
+            <ContactForm netlify="true" />
             <div className="col-12">
               <iframe
                 className="contact-map"
