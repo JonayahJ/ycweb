@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "chalk": "^4.1.0",
     "classnames": "^2.2.6",
+    "color-convert": "^2.0.1",
+    "conversions": "^1.5.2",
     "gsap": "^3.3.3",
     "next": "^10.0.6",
+    "node-constants": "0.0.2",
     "parallax-js": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
@@ -59,5 +63,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonayahJ/ycweb/issues"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).",
+  "homepage": "https://github.com/JonayahJ/ycweb#readme",
+  "main": "next.config.js",
+  "devDependencies": {}
 }
